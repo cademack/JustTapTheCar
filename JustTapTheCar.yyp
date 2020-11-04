@@ -1,12 +1,18 @@
 {
   "resources": [
     {"id":{"name":"obj_scoreboard","path":"objects/obj_scoreboard/obj_scoreboard.yy",},"order":1,},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":4,},
+    {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},"order":3,},
     {"id":{"name":"spr_car","path":"sprites/spr_car/spr_car.yy",},"order":0,},
+    {"id":{"name":"fnt_main","path":"fonts/fnt_main/fnt_main.yy",},"order":0,},
     {"id":{"name":"spr_click","path":"sprites/spr_click/spr_click.yy",},"order":2,},
+    {"id":{"name":"obj_missed","path":"objects/obj_missed/obj_missed.yy",},"order":4,},
+    {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},"order":3,},
+    {"id":{"name":"menu","path":"rooms/menu/menu.yy",},"order":1,},
     {"id":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},"order":0,},
     {"id":{"name":"spr_road","path":"sprites/spr_road/spr_road.yy",},"order":1,},
     {"id":{"name":"obj_click","path":"objects/obj_click/obj_click.yy",},"order":2,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"main","path":"rooms/main/main.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -22,7 +28,8 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
+    {"name":"menu","path":"rooms/menu/menu.yy",},
+    {"name":"main","path":"rooms/main/main.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

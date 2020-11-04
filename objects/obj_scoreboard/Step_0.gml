@@ -6,7 +6,12 @@ if instance_exists(obj_car) {
 	}
 }
 
-if (clicked) and instance_exists(obj_click) {
+if failed then
+	if alarm[1] = -1 {
+		alarm[1] = 90
+	}
+
+if (clicked) and instance_exists(obj_click) and not ending {
 	clickx = obj_click.x
 	clicky = obj_click.y
 	centerx = (clickx + obj_car.x) / 2
@@ -15,8 +20,8 @@ if (clicked) and instance_exists(obj_click) {
 	var vpos_w = camera_get_view_width(view_camera[0])
 	var vpos_h = camera_get_view_height(view_camera[0])
 
-	var ideal_w = abs(obj_car.x - clickx) * 1.2
-	var ideal_h = ideal_w * 0.75
+	var ideal_w = abs(obj_car.x - clickx) * 1.8
+	var ideal_h = ideal_w
 	
 	var vpos_x = camera_get_view_x(view_camera[0])
 	var vpos_y = camera_get_view_y(view_camera[0])

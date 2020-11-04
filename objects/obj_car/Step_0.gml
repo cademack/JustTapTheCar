@@ -2,6 +2,9 @@
 // You can write your code in this editor
 if x > room_width then {
 	instance_destroy()
+	if (obj_scoreboard.ending == false) {
+		obj_scoreboard.failed = true
+	}
 }
 
 if mouse_check_button_pressed(mb_left) then {
