@@ -6,6 +6,7 @@ if flashtimes > 0 {
 	alarm[1] = flashrate
 } else {
 	if displayeddistance < obj_highscore.highscore {
+		audio_play_sound(snd_victory, 1, false)
 		while stars > 0 {
 			instance_create_layer((x + obj_car.x)/2, 375, "Instances", obj_star)
 			stars -= 1

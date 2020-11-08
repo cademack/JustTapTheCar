@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"obj_scoreboard","path":"objects/obj_scoreboard/obj_scoreboard.yy",},"order":1,},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":4,},
+    {"id":{"name":"snd_loop1","path":"sounds/snd_loop1/snd_loop1.yy",},"order":1,},
     {"id":{"name":"obj_star","path":"objects/obj_star/obj_star.yy",},"order":8,},
     {"id":{"name":"spr_star","path":"sprites/spr_star/spr_star.yy",},"order":9,},
     {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},"order":3,},
@@ -14,7 +15,9 @@
     {"id":{"name":"spr_grass","path":"sprites/spr_grass/spr_grass.yy",},"order":5,},
     {"id":{"name":"spr_car7","path":"sprites/spr_car7/spr_car7.yy",},"order":15,},
     {"id":{"name":"spr_shrub2","path":"sprites/spr_shrub2/spr_shrub2.yy",},"order":7,},
+    {"id":{"name":"snd_loop2","path":"sounds/snd_loop2/snd_loop2.yy",},"order":2,},
     {"id":{"name":"snd_approach","path":"sounds/snd_approach/snd_approach.yy",},"order":0,},
+    {"id":{"name":"snd_victory","path":"sounds/snd_victory/snd_victory.yy",},"order":3,},
     {"id":{"name":"spr_shrub1","path":"sprites/spr_shrub1/spr_shrub1.yy",},"order":6,},
     {"id":{"name":"spr_car3","path":"sprites/spr_car3/spr_car3.yy",},"order":10,},
     {"id":{"name":"obj_missed","path":"objects/obj_missed/obj_missed.yy",},"order":4,},
