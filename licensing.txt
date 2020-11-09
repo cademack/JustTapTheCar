@@ -1,0 +1,7 @@
+Licensing Information
+
+All visual elements of our game were created by Komal Keshwani
+
+The Car-Pass and title sequence sounds comes from www.freesoundeffects.com and has no license for non-commercial use.
+
+The background music and high score sound were legally purchased for use by Michael Dorn from https://www.humblebundle.com/
